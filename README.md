@@ -2,6 +2,7 @@
 ---
 ## README
 ---
+
 ```bash
 mkdir foldername
 cd foldername
@@ -10,5 +11,7 @@ vim filename.extension
 git add filename.extension
 git commit -m "some message"
 git push
+git log
+git log --oneline
 ```
 
