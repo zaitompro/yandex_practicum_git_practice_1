@@ -8,6 +8,7 @@ mkdir foldername
 cd foldername
 git init # Инициализация репозитория, создание папки .git
 git remote add origin repourl # Связывание локального и удалённого репозитория
+git remote rm origin # Отвязывание локального репозитория от удалённого репозитория
 git remote -v # Просмотр информации и связи локального репозитория с удалённым
 touch filename.extention
 vim filename.extension
